@@ -17,20 +17,43 @@ body {
 
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
   display: flex;
+  padding: 24px;
   height: 80px;
   width: 1600px;
   border-radius: 0px;
-  background: yellowgreen;
+
+  margin: 0 auto;
 }
 .webstudio {
   margin-left: 215px;
   margin-top: 24px;
   margin-bottom: 25px;
   margin-top: 24px;
+}
+
+.anency {
+  margin-left: 93px;
+}
+
+.portfolio {
+  margin-left: 93px;
+}
+
+.contact {
+  margin-left: 46px;
+}
+
+.info {
+  margin-left: 371px;
+}
+
+.tel {
+  margin-left: 50px;
 }
 
 h3 {
