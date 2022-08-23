@@ -16,16 +16,21 @@ body {
 }
 
 * {
-  margin:0;
+  margin: 0;
 }
 
+.container {
+  display: flex;
+  height: 80px;
+  width: 1600px;
+  border-radius: 0px;
+  background: yellowgreen;
+}
 .webstudio {
-  box-sizing: border-box;
-  background: yellow;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
+  margin-left: 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-top: 24px;
 }
 
 h3 {
@@ -36,7 +41,7 @@ h3 {
 
 .section {
   height: 150px;
-  width: 1600px;
+  width: 1200px;
   left: 0px;
   top: 80px;
   border-radius: 0px;
