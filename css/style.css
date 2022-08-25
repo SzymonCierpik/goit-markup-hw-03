@@ -47,7 +47,7 @@ body {
 }
 
 .portfolio {
-  margin-left: 93px;
+  margin-left: 46px;
 }
 
 .contact {
@@ -93,13 +93,17 @@ h3 {
   height: 50px;
   color: var(--whitehihi);
   font-weight: 700;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-align: center;
   border: none;
   background: var(--kamikaze);
-  border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
   border: none;
+  border-style: none;
 }
 
 .position-button {
@@ -125,15 +129,10 @@ li {
   color: var(--kamikaze);
 }
 
-.link-2:focus {
-  color: var(--kamikaze);
-}
-
+.link-2:hover,
+.link-2:focus,
+.link:focus,
 .link:hover {
-  color: var(--kamikaze);
-}
-
-.link:focus {
   color: var(--kamikaze);
 }
 
