@@ -164,6 +164,14 @@ li {
   color: var(--whitehihi);
 }
 
+.section-footer {
+  border-radius: 0px;
+  background-color: var(--shark);
+  color: var(--whitehihi);
+  width: 1600px;
+  height: 252px;
+}
+
 .position-li {
   width: 200px;
   height: 100px;
