@@ -7,6 +7,7 @@
   --shark: #2f303a;
   --buttonwhite: #f5f4fa;
   --gray-background: #e5e5e5;
+  --whatitis: #f5f4fa;
 }
 
 body {
@@ -178,6 +179,7 @@ li {
 }
 
 .position-lorem {
+  padding-top: 10px;
   width: 270px;
   height: 75px;
   line-height: 24px;
@@ -246,4 +248,69 @@ p[class='text-picture'] {
   line-height: 30px;
   letter-spacing: 0.03em;
   text-align: left;
+}
+
+.container3 {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 79px;
+}
+
+.card-set {
+  display: flex;
+  list-style: none;
+  padding-left: 200px;
+}
+
+.card-set2 {
+  display: inline-flex;
+  list-style: none;
+  padding-left: 200px;
+  padding-bottom: 79px;
+}
+
+.item {
+  margin: 15px;
+}
+
+.position-h3 {
+  text-align: center;
+  background-color: var(--whitehihi);
+  padding-bottom: 35px;
+}
+.container4 {
+  background-color: #ffffff;
+}
+
+.container5 {
+  background-color: var(--whatitis);
+}
+
+.position-h3-2 {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  background-color: var(--whatitis);
+}
+
+.card-set3 {
+  display: inline-flex;
+  list-style: none;
+  padding-left: 200px;
+  padding-bottom: 79px;
+}
+
+.positon-text-photo {
+  text-align: center;
+  background-color: var(--whitehihi);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.item2 {
+  margin: 15px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
