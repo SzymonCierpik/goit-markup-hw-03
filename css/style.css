@@ -15,20 +15,18 @@ body {
   color: var(--grayhey);
   font-size: 14px;
   letter-spacing: 0.03em;
-  background: var(--gray-background);
 }
 
 * {
   margin: 0;
 }
 
-.wrap {
-  background-color: var(--white);
+.container {
   width: 1600px;
   margin: 0 auto;
 }
 
-.container {
+.header {
   background: var(--whitehihi);
   padding-top: 24px;
   padding-bottom: 25px;
@@ -248,7 +246,7 @@ p[class='text-picture'] {
   text-align: left;
 }
 
-.container3 {
+.four-boxes {
   background-color: #ffffff;
   padding-top: 80px;
   padding-bottom: 79px;
@@ -265,6 +263,7 @@ p[class='text-picture'] {
   list-style: none;
   padding-left: 200px;
   padding-bottom: 79px;
+  background-color: var(--whitehihi);
 }
 
 .item {
@@ -276,13 +275,6 @@ p[class='text-picture'] {
   background-color: var(--whitehihi);
   padding-bottom: 35px;
 }
-.container4 {
-  background-color: #ffffff;
-}
-
-.container5 {
-  background-color: var(--whatitis);
-}
 
 .position-h3-2 {
   text-align: center;
@@ -293,9 +285,10 @@ p[class='text-picture'] {
 
 .card-set3 {
   display: inline-flex;
-  list-style: none;
   padding-left: 200px;
+  padding-right: 200px;
   padding-bottom: 79px;
+  background-color: var(--whatitis);
 }
 
 .positon-text-photo {
