@@ -8,6 +8,8 @@
   --buttonwhite: #f5f4fa;
   --gray-background: #e5e5e5;
   --whatitis: #f5f4fa;
+  --border: #eeeeee;
+  --border-header: #ececec;
 }
 
 body {
@@ -32,13 +34,14 @@ body {
   padding-bottom: 25px;
   border-radius: 0px;
   margin: 0 auto;
+  border: 1px solid var(--border-header);
 }
 
 .webstudio {
-  margin-left: 215px;
   margin-top: 24px;
   margin-bottom: 25px;
   margin-top: 24px;
+  margin-left: 215px;
 }
 
 .agency {
@@ -103,6 +106,12 @@ h3 {
   cursor: pointer;
   border: none;
   border-style: none;
+}
+
+.button-set {
+  padding-left: 532px;
+  padding-right: 540px;
+  padding-top: 100px;
 }
 
 .position-button {
@@ -208,8 +217,6 @@ li {
   line-height: 26px;
   letter-spacing: 0.03em;
   text-align: center;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
 }
@@ -226,6 +233,9 @@ li {
   font-size: 16px;
   line-height: 19px;
   color: var(--blackhawk);
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-right: 24px;
 }
 
 p[class='text-picture'] {
@@ -244,6 +254,9 @@ p[class='text-picture'] {
   line-height: 30px;
   letter-spacing: 0.03em;
   text-align: left;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
 }
 
 .four-boxes {
@@ -268,6 +281,11 @@ p[class='text-picture'] {
 
 .item {
   margin: 15px;
+}
+
+.item-button {
+  margin: 4px;
+  margin-bottom: 41px;
 }
 
 .position-h3 {
@@ -320,4 +338,19 @@ p[class='text-picture'] {
 
 .address-email {
   padding-top: 9px;
+}
+
+.card-portfolio {
+  display: flex;
+  list-style: none;
+  margin-left: 160px;
+}
+
+.item-portfolio {
+  margin: 15px;
+  border: 1px solid var(--border);
+}
+
+.margin-footer {
+  margin-bottom: 79px;
 }
