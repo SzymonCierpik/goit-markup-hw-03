@@ -270,14 +270,14 @@ p[class='text-picture'] {
   padding-top: 80px;
 }
 
-.card-set {
+.location-lorem-ipsum {
   display: flex;
   list-style: none;
   padding-left: 200px;
   padding-right: 200px;
 }
 
-.card-set2 {
+.location-what-we-do {
   display: flex;
   list-style: none;
   padding-left: 200px;
@@ -285,7 +285,7 @@ p[class='text-picture'] {
   background-color: var(--whitehihi);
 }
 
-.card-set3 {
+.location-our-team {
   display: flex;
   padding-left: 200px;
   padding-right: 200px;
@@ -296,11 +296,11 @@ p[class='text-picture'] {
   background-color: var(--whatitis);
 }
 
-.item {
+.margin-lorem-ipsum {
   margin: 15px;
 }
 
-.item2 {
+.photo-box {
   margin: 15px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -315,10 +315,7 @@ p[class='text-picture'] {
   padding-bottom: 30px;
 }
 
-.footer-position1 {
-  margin: 215px;
-}
-.position-ul {
+.position-ul-footer {
   padding-left: 215px;
   padding-top: 60px;
 }
