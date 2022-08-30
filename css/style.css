@@ -224,6 +224,7 @@ li {
 
 .buttonportfolio-set {
   margin-left: 295px;
+  margin-right: 318px;
   margin-bottom: 41px;
 }
 .buttonportfolio:hover {
@@ -329,6 +330,7 @@ p[class='text-picture'] {
 .card-portfolio {
   display: flex;
   list-style: none;
+  justify-content: center;
 }
 
 .item-portfolio-left {
