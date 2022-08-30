@@ -267,7 +267,7 @@ p[class='text-picture'] {
 .four-boxes {
   background-color: #ffffff;
   padding-top: 80px;
-  }
+}
 
 .location-lorem-ipsum {
   display: flex;
@@ -327,15 +327,28 @@ p[class='text-picture'] {
 }
 
 .card-portfolio {
-  display: inline-flex;
+  display: flex;
   list-style: none;
- }
+}
 
-.item-portfolio {
-  margin: 15px;
+.item-portfolio-left {
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border: 1px solid var(--border);
 }
 
+.item-portfolio-right {
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid var(--border);
+}
+
+.item-portfolio-center {
+  margin: 15px;
+  border: 1px solid var(--border);
+}
 .section {
   padding: 94px 0;
 }
