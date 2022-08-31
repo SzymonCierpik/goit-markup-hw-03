@@ -54,33 +54,13 @@ li {
   padding-bottom: 25px;
   border-radius: 0px;
   margin: 0 auto;
-  border: 1px solid var(--border-header);
+  border-bottom: 1px solid var(--border-header);
 }
 
 .webstudio {
   margin-top: 24px;
   margin-bottom: 25px;
   margin-top: 24px;
-}
-
-.agency {
-  margin-left: 93px;
-}
-
-.portfolio {
-  margin-left: 46px;
-}
-
-.contact {
-  margin-left: 46px;
-}
-
-.info {
-  margin-left: 371px;
-}
-
-.tel {
-  margin-left: 50px;
 }
 
 .position-h3-2 {
@@ -147,7 +127,7 @@ li {
   color: var(--kamikaze);
 }
 
-.nodecor {
+a {
   text-decoration: none;
 }
 
@@ -353,4 +333,37 @@ p[class='text-picture'] {
 }
 .section {
   padding: 94px 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 46px;
+  margin-left: 93px;
+}
+
+.menu {
+  display: flex;
+}
+
+.agency {
+  padding-left: 93px;
+}
+
+.portfolio,
+.contact {
+  padding-left: 46px;
+}
+
+.email {
+  padding-left: 371px;
+}
+
+.tel {
+  padding-left: 50px;
 }
