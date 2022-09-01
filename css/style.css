@@ -50,10 +50,10 @@ li {
 
 .header {
   background: var(--whitehihi);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-radius: 0px;
-  margin: 0 auto;
+  
   border-bottom: 1px solid var(--border-header);
 }
 
@@ -338,17 +338,16 @@ p[class='text-picture'] {
 .header {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+
 }
 
 .nav-list {
   display: flex;
-  gap: 46px;
-  margin-left: 93px;
 }
 
 .menu {
-  display: flex;
+display: flex;
+align-items: center;
 }
 
 .agency {
