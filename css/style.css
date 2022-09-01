@@ -263,14 +263,11 @@ p[class='text-picture'] {
 
 .location-our-team {
   display: flex;
-  margin-left: 200px;
-  margin-right: 200px;
   background-color: var(--whatitis);
 }
 
 .background {
   background-color: var(--whatitis);
-  width: 1600px;
 }
 
 .margin-lorem-ipsum {
