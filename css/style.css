@@ -53,7 +53,7 @@ li {
   padding-top: 32px;
   padding-bottom: 32px;
   border-radius: 0px;
-  
+
   border-bottom: 1px solid var(--border-header);
 }
 
@@ -338,7 +338,6 @@ p[class='text-picture'] {
 .header {
   display: flex;
   flex-direction: row;
-
 }
 
 .nav-list {
@@ -346,8 +345,8 @@ p[class='text-picture'] {
 }
 
 .menu {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .agency {
@@ -365,4 +364,5 @@ align-items: center;
 
 .tel {
   padding-left: 50px;
+  padding-right: 41px;
 }
