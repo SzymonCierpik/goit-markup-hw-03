@@ -158,8 +158,6 @@ a {
 .section-footer {
   background-color: var(--shark);
   color: var(--whitehihi);
-  height: 252px;
-  width: 1600px;
 }
 
 .position-li {
@@ -295,7 +293,6 @@ p[class='text-picture'] {
 }
 
 .position-ul-footer {
-  padding-left: 215px;
   padding-top: 60px;
 }
 
