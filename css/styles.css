@@ -6,14 +6,16 @@
   --gray-footer: rgba(255, 255, 255, 0.6);
   --gray: #757575;
   --button-color: #f5f4fa;
-  --color-team:#F5F4FA;
+  --color-team: #f5f4fa;
   --blue: #2196f3;
 }
 
-/* .container {
+
+
+ .container {
   width: 1200px;
   margin: 0 auto;
-} */
+} 
 
 body {
   font-family: 'Roboto';
@@ -60,7 +62,7 @@ body {
 }
 
 .menu__item--active {
-  color:var(--blue);
+  color: var(--blue);
 }
 
 .menu__contact {
@@ -136,7 +138,7 @@ body {
 }
 
 .out-team--background {
-background: var(--color-team);
+  background: var(--color-team);
 }
 
 .our-team {
