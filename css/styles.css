@@ -12,9 +12,6 @@
 
 * {
   padding: 0;
-}
-
-h1 {
   margin: 0;
 }
 
@@ -23,8 +20,13 @@ h2 {
   margin-bottom: 50px;
 }
 
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 figure {
-  margin-block-start:0;
+  margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
@@ -49,6 +51,10 @@ ul {
   margin: 0 auto;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #ececec;
+}
+
 body {
   font-family: 'Roboto';
   font-style: normal;
@@ -61,8 +67,9 @@ body {
 }
 
 .section--padding-bottom {
-padding-bottom: 94px;
+  padding-bottom: 94px;
 }
+
 .article,
 .heading__image,
 .our-team__person,
@@ -215,8 +222,16 @@ padding-bottom: 94px;
   text-align: center;
 }
 
+.our-team__border {
+  background: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
 .our-team__person {
-  gap:30px;
+  gap: 30px;
 }
 .our-team__person--name {
   font-weight: 500;
@@ -229,14 +244,30 @@ padding-bottom: 94px;
 .our-team__person--specialization {
   color: var(--gray);
   font-weight: 400;
+  margin-bottom: 30px;
 }
 
 .footer--background {
   background-color: var(--gray-second);
+  height: 252px;
+}
+
+.address--padding {
+  padding-top: 60px;
 }
 
 .logo--color-footer {
   color: var(--white);
+}
+.logo--flex {
+  display: flex;
+}
+.address {
+  margin-top: 20px;
+}
+
+.address-footer {
+  margin-top: 60px;
 }
 
 .address__item {
@@ -246,6 +277,11 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
   color: var(--gray-footer);
   font-style: normal;
+  padding-top: 9px;
+}
+
+.address__item--color {
+  color: var(--white);
 }
 .address__item--contact {
   text-decoration: none;
@@ -258,6 +294,13 @@ padding-bottom: 94px;
 .address__item--contact:hover,
 .address__item--contact:focus {
   color: var(--white);
+}
+
+.button-grups {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 94px;
 }
 
 .btn--theme {
@@ -308,6 +351,11 @@ padding-bottom: 94px;
   background-color: var(--blue);
   color: var(--white);
   cursor: pointer;
+}
+
+.pictures {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .pictures--heading {
