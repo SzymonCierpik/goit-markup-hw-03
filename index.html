@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap"
     />
   </head>
   <body>
@@ -19,30 +19,32 @@
     <!--  -->
     <header class="border-bottom">
       <div class="container flex">
-        <a href="/" class="logo"><span class="logo--color">Web</span>Studio</a>
-        <nav>
-          <ul class="menu">
+        <div class="header--center">
+          <a href="/" class="logo"><span class="logo--color">Web</span>Studio</a>
+          <nav class="header--center">
+            <ul class="menu">
+              <li>
+                <a href="index.html" class="menu__item menu__item--active">Agencja </a>
+              </li>
+              <li><a href="portfolio.html" class="menu__item">Portfolio</a></li>
+              <li><a href="/" class="menu__item">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="menu menu--flex">
             <li>
-              <a href="index.html" class="menu__item menu__item--active">Agencja </a>
+              <a href="mailto:info@devstudio.com" class="menu__contact"
+                >info@devstudio.com
+              </a>
             </li>
-            <li><a href="portfolio.html" class="menu__item">Portfolio</a></li>
-            <li><a href="/" class="menu__item">Kontakt</a></li>
+            <li>
+              <a href="tel:+48111111111" class="menu__contact menu__contact--padding-tel"
+                >+48 111 111 111
+              </a>
+            </li>
           </ul>
-        </nav>
-        <ul class="menu">
-          <li>
-            <a
-              href="mailto:nfo@devstudio.com"
-              class="menu__contact menu__contact--padding-mail"
-              >info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a href="tel:+48111111111" class="menu__contact menu__contact--padding-tel"
-              >+48 111 111 111
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -197,13 +199,15 @@
         <div class="container">
           <div class="address--padding">
             <a href="/" class="logo logo--flex">
-              <div class="logo--color">Web</div>
-              <div class="logo--color-footer">Studio</div>
+              <span class="logo--color">Web</span>
+              <span class="logo--color-footer">Studio</span>
             </a>
           </div>
           <address>
             <ul class="address">
-              <li class="address__item address__item--color ">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li class="address__item address__item--color">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </li>
               <li class="address__item">
                 <a href="mailto:nfo@devstudio.com" class="address__item--contact">
                   info@devstudio.com

@@ -44,11 +44,17 @@ ul {
   display: flex;
   height: 80px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.header--center {
+  display: flex;
+  align-items: center;
 }
 
 .border-bottom {
@@ -103,8 +109,13 @@ body {
   letter-spacing: 0.02em;
 }
 
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
 .menu__item {
-  padding-left: 46px;
+  margin-left: 46px;
   text-decoration: none;
   list-style: none;
   color: var(--black-second);
@@ -119,11 +130,9 @@ body {
   list-style: none;
   color: var(--gray);
 }
-.menu__contact--padding-mail {
-  padding-left: 371px;
-}
+
 .menu__contact--padding-tel {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .menu__item:hover,
@@ -203,10 +212,7 @@ body {
 
 .images-flex {
   display: flex;
-  justify-content: center;
-}
-.heading__image--padding {
-  padding: 0 30px;
+  justify-content: space-between;
 }
 
 .out-team--background {
