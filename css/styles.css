@@ -115,7 +115,8 @@ body {
   align-content: center;
 }
 .menu__item {
-  margin-left: 46px;
+  margin: 2px;
+  padding: 16px;
   text-decoration: none;
   list-style: none;
   color: var(--black-second);
